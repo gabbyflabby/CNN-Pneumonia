@@ -57,7 +57,7 @@ def evaluate_test(model, history, class_labels, train_X, test_X, train_y, test_y
     print('\n')
     # predict probabilities for test set
     yhat_probs = model.predict(test_X, verbose=0)
-    # predict crisp classes for test set
+    # predict classes for test set
     yhat_classes = model.predict_classes(test_X, verbose=0)
     # reduce to 1d array
     yhat_probs = yhat_probs[:, 0]
