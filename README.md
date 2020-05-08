@@ -13,7 +13,9 @@
 
 ## Viewing Images <a id='view'></a>
 
-In this project, we are working with images of chest X-rays which we are classifying into two categories: pneumonia or normal. First, let's look at the difference between these.
+In this project, we are working with images of chest X-rays which we are classifying into two categories: pneumonia or normal. We retrieved this dataset from <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">Kaggle</a>. 
+
+First, let's look at the difference between our two categories.
 
 #### Normal:
 <table style="border-collapse: collapse;">
@@ -78,7 +80,6 @@ Our best model had the following parameters:
 * 128x128 images
     * The largest images we could give our model with our current hardware 
 * Quad filters
-    * 
 * Dropout before flatten
     * Helps avoid overfitting
 * Shift, Shear and Zoom on training set
@@ -87,7 +88,7 @@ Our best model had the following parameters:
     * Shift accounts for non-centered images
     * Helps us avoid overfitting to our training set's images
 * RMS-Prop optimization
-    * 
+* Early Stopping with a patience of 5
 
 # Results <a id='results'></a>
 
