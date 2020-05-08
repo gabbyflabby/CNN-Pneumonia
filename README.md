@@ -129,5 +129,5 @@ Automating the diagnosis process could help save time and reduce human error. Am
 Some ways we'd like to improve on this model given the resources and time:
 * All images in same square aspect ratio
 * Better hardware
-* Additional fata
+* Additional data
 * Evenly split classes
