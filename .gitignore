@@ -19,6 +19,9 @@ config.py
 # csv or data files
 *.csv
 
+#image data
+chest_xray/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
