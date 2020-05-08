@@ -92,8 +92,8 @@ Our best model had the following parameters:
 
 Let's look at the results of our best model in detail below.
 
-**Accuracy**: Train - 0.938, Test - 0.872 <br>
-**Loss**: Train - 0.158, Test - 0.321 
+**Accuracy**: Train - 0.972, Test - 0.902 <br>
+**Loss**: Train - 0.079, Test - 0.289 
  
 These were the best accuracy and loss results for our test set out of all the models we ran.
 <div style="display: inline-block">
@@ -106,9 +106,9 @@ We can see here that the validation set loss and accuracy follows the same impro
 <div style="display: inline-block; width: 100%">
 <img src="Images/conf_matrix.png" alt="confusion matrix" width="400px" align="left">
 <p style="margin-top:13%">
-    <strong>Precision</strong>: Normal - 0.85, Pneumonia - 0.88 <br>
-    <strong>Recall</strong>: Normal - 0.80, Pneumonia - 0.92 <br>
-    <strong>F1 Score</strong>: Normal - 0.82, Pneumonia - 0.90    
+    <strong>Precision</strong>: Normal - 0.93, Pneumonia - 0.89 <br>
+    <strong>Recall</strong>: Normal - 0.80, Pneumonia - 0.96 <br>
+    <strong>F1 Score</strong>: Normal - 0.86, Pneumonia - 0.92    
 </p>    
 </div>
 
