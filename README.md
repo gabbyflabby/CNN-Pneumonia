@@ -6,8 +6,8 @@
 2. [Modeling](#modeling) <br>
     1. [Tuning One Parameter](#one) <br>
     2. [Complex Models](#complex) <br>
-    3. [Final Model](#final) <br>
-3. [Results](#results)
+3. [Results](#results) <br>
+4. [Future Recommendations](#recommendations)
 
 # EDA <a id='eda'></a>
 
@@ -119,3 +119,7 @@ Let's take a look at some examples of images classified by our model.
 [stuff from classification notebook]
 
 Overall, our model gives us good results!
+
+# Future Recommendations <a id='recommendations'></a>
+
+[stuff we recommend]
