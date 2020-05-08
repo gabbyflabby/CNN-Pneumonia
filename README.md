@@ -98,7 +98,7 @@ Let's look at the results of our best model in detail below.
 **Loss**: Train - 0.079, Test - 0.289 
  
 These were the best accuracy and loss results for our test set out of all the models we ran.
-<div style="display: inline-block">
+<div style="display: inline-block; width: 100%">
 <img src="Images/loss_acc.png" alt="loss and accuracy graph" width="400px" align="left">
 <p style="margin-top:13%">
 We can see here that the validation set loss and accuracy follows the same improving trend as that of the training set, meaning we have a good fit on our data.
@@ -124,4 +124,10 @@ Overall, our model gives us good results!
 
 # Future Recommendations <a id='recommendations'></a>
 
-[stuff we recommend]
+Automating the diagnosis process could help save time and reduce human error. Among other benefits, it would free up medical personnel to do other work, while quickly flagging potentially ill patients. There would also be no errors due to tired or overworked radiologists.
+
+Some ways we'd like to improve on this model given the resources and time:
+* All images in same square aspect ratio
+* Better hardware
+* Additional fata
+* Evenly split classes
