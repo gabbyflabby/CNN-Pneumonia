@@ -86,7 +86,8 @@ Our best model had the following parameters:
     * Shear accounts for rotation of patients in some X-rays
     * Shift accounts for non-centered images
     * Helps us avoid overfitting to our training set's images
-
+* RMS-Prop optimization
+    * 
 
 # Results <a id='results'></a>
 
@@ -114,9 +115,9 @@ We can see here that the validation set loss and accuracy follows the same impro
 
 The confusion matrix shows us that we have a low amount of false negatives/positives. We are able to keep recall above 0.90 while still have a high precision, giving us a high f1 score. Since this model is making predictions on people's medical diagnosis, we need to be sure to prioritize recall. We'd rather someone healthy get checked for pneumonia than someone sick be misdiagnosed as healthy.
 
-Let's take a look at some examples of images classified by our model.
+Lastly, we took a look at some examples of images classified by our model. The process for this analysis is in the "Classification_Analysis" jupyter notebook.
 
-[stuff from classification notebook]
+We were unable to see any obvious difference between the images the model classified as Normal vs Pneumonia. 
 
 Overall, our model gives us good results!
 
